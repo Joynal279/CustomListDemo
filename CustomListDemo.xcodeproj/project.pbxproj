@@ -14,6 +14,7 @@
 		F2A660EE299B396F00E75FDC /* CustomListDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A660ED299B396F00E75FDC /* CustomListDemoTests.swift */; };
 		F2A660F8299B396F00E75FDC /* CustomListDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A660F7299B396F00E75FDC /* CustomListDemoUITests.swift */; };
 		F2A660FA299B396F00E75FDC /* CustomListDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A660F9299B396F00E75FDC /* CustomListDemoUITestsLaunchTests.swift */; };
+		F2A66107299B3A4900E75FDC /* DesignView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A66106299B3A4900E75FDC /* DesignView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		F2A660F3299B396F00E75FDC /* CustomListDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomListDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2A660F7299B396F00E75FDC /* CustomListDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomListDemoUITests.swift; sourceTree = "<group>"; };
 		F2A660F9299B396F00E75FDC /* CustomListDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomListDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F2A66106299B3A4900E75FDC /* DesignView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				F2A660DC299B396D00E75FDC /* CustomListDemoApp.swift */,
+				F2A66106299B3A4900E75FDC /* DesignView.swift */,
 				F2A660DE299B396D00E75FDC /* ContentView.swift */,
 				F2A660E0299B396F00E75FDC /* Assets.xcassets */,
 				F2A660E2299B396F00E75FDC /* Preview Content */,
@@ -259,6 +262,7 @@
 			files = (
 				F2A660DF299B396D00E75FDC /* ContentView.swift in Sources */,
 				F2A660DD299B396D00E75FDC /* CustomListDemoApp.swift in Sources */,
+				F2A66107299B3A4900E75FDC /* DesignView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
