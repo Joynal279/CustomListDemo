@@ -28,6 +28,7 @@ struct ContentView: View {
             List(values) { item in
                 DesignView(item: item)
                     .listRowSeparator(.hidden)
+                    
             }
             .listStyle(.plain)
         }

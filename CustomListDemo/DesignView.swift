@@ -14,26 +14,30 @@ struct DesignView: View {
     var body: some View {
         ZStack {
             RoundedRectangle(cornerRadius: 10.0)
-                .fill(Color.blue)
+                .fill(Color.white)
                 .frame(height: 100)
             
             HStack {
                 Text(item.name)
-                    .foregroundColor(.white)
-                    .font(.title)
+                    .foregroundColor(.black)
+                    .font(.body)
                 Spacer()
                 Text("\(item.age)")
-                    .foregroundColor(.white)
-                    .font(.title2)
+                    .foregroundColor(.black)
+                    .font(.subheadline)
                 Spacer()
                 Text(item.gender)
-                    .foregroundColor(.white)
-                    .font(.title2)
+                    .foregroundColor(.black)
+                    .font(.subheadline)
             }
             .padding([.leading, .trailing], 10)
             
+            
         }
-        .padding(EdgeInsets(top: 10, leading: 10, bottom: 10, trailing: 10))
+        .frame(height: 54)
+        .cornerRadius(24)
+        .shadow(color: Color(uiColor: UIColor(red: 0.081, green: 0.415, blue: 0.775, alpha: 0.13)), radius: 10, x: 0, y: 1)
+        
     }
 }
 
